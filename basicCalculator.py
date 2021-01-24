@@ -6,12 +6,12 @@ print("For addition select 1\nFor subtract select 2\nFor multiplication select 3
 operation =  input("Please enter the operation number:") # Buna göre koşullarımızı yazacağız.
 
 if (operation == "1"):
-    print("{} + {} = {}".format(a,b,a+b))
+    print("{} + {} = {}".format(a , b , a + b))
 elif (operation == "2"):
-    print("{} - {} = {}".format(a, b, a - b))
+    print("{} - {} = {}".format(a , b , a - b))
 elif (operation == "3"):
-    print("{} x {} = {}".format(a, b, a * b))
+    print("{} x {} = {}".format(a , b , a * b))
 elif (operation == "4"):
-    print("{} / {} = {}".format(a, b, a / b))
+    print("{} / {} = {}".format(a , b , a / b))
 else:
     print("Invalid operation!")
